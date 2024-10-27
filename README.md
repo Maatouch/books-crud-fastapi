@@ -1,7 +1,5 @@
 # Books CRUD API with FastAPI, MongoDB, and Docker
 
-## Quick Setup
-
 ### Prerequisites
 Docker and Docker Compose installed.
 
