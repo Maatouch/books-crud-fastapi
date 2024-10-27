@@ -13,4 +13,4 @@ Run :
 docker-compose up -d --build
 ```
 
-Visit http://localhost:8000/docs to access the interactive API docx.
+Visit http://localhost:8000/docs to access the interactive API docs.
