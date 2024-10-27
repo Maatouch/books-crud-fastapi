@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorDatabase
 async def get_books(db: AsyncIOMotorDatabase) -> List[BookModel]:
     books = []
     async for book in db["books"].find():
-        book["_id"] = str(book["_id"])
+        book["id"] = str(book["id"])
         books.append(BookModel(**book))
     return books
 
